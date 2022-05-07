@@ -90,6 +90,7 @@ let obj = {
     age: 25, 
     nickname: "Jicamon"
 }
-function imprimeObjeto(obj){
+function imprimeObjeto(objeto){
+    Object.values(objeto).forEach(element => console.log(element))
 
 }

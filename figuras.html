@@ -18,13 +18,42 @@
 
     <section>
         <h2>
-            Calcula el área y perímetro de un cuadro
+            Calcula CUADRADO
         </h2>
         <form>
             <label>Escribe cuánto mide cada lado de tu cuadrado</label>
-            <input id="InputCuadrado" type="number" />
+            <input placeholder="Medida del Lado" id="InputCuadrado" type="number" />
             <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
             <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>
+            Calculos TRIANGULO
+        </h2>
+        <form>
+            <label>Escribe cuánto mide cada lado de tu triangulo</label>
+            <input placeholder="Lado Uno" id="InputTrianguloLadoUno" type="number" />
+            <input placeholder="Lado Dos" id="InputTrianguloLadoDos" type="number" />
+            <input placeholder="Base" id="InputTrianguloBase" type="number" />
+            <input placeholder="Altura" id="InputTrianguloAltura" type="number" />
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+            <button type="button" onclick="calcularAlturaIsoceles()">Calcular altura de Isoceles</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>
+            Calculos CIRCULO
+        </h2>
+        <form>
+            <label>Escribe cuánto mide el radio del circulo</label>
+            <input placeholder="Medida del Radio" id="InputCirculo" type="number" />
+            <button type="button" onclick="calcularDiametro()">Calcular el diametro</button>
+            <button type="button" onclick="calcularPerimetroCirculo()">Calcular la circunferencia</button>
+            <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
         </form>
     </section>
 

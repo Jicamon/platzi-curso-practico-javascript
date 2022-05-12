@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Percentage Yield</title>
+</head>
+<body>
+    <h1>
+        Annual Percentage Yield
+    </h1>
+
+    <section>
+        <h2>Annual Percentage Yield</h2>
+        <form>
+            <input placeholder="Cantidad a Invertir" id="InputCantidad" type="number" />
+            <input placeholder="Tasa de Interes" id="InputInteres" type="number" />
+            <input placeholder="Tiempo en Años" id="InputTiempo" type="number" />
+            <button type="button" onclick="calcularGanancia()">Calcular ganancia total</button>
+
+            <p id="Resultado"></p>
+        </form>
+        
+    </section>
+    <script src="./apy.js"></script>
+</body>
+</html>

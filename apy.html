@@ -17,6 +17,10 @@
             <input placeholder="Cantidad a Invertir" id="InputCantidad" type="number" />
             <input placeholder="Tasa de Interes" id="InputInteres" type="number" />
             <input placeholder="Tiempo en Años" id="InputTiempo" type="number" />
+            <select name="Intereces" id="SelectIntereces">
+                <option value="1" selected>Compuesto</option>
+                <option value="2">Simple</option>
+            </select>
             <button type="button" onclick="calcularGanancia()">Calcular ganancia total</button>
 
             <p id="Resultado"></p>
